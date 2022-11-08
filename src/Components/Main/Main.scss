@@ -1,0 +1,92 @@
+// .main-section {
+//     height: 500px;
+// }
+
+.main-block {
+    width: 1024px;
+    padding: 0px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 200px;
+}
+
+// << -------- MainHeading -------- >>
+
+.MainHeading-heading {
+    padding-top: 100px;
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.MainHeading-heading-span1 {
+    color: #42A9ED;
+}
+
+// << -------- MainHeading -------- >>
+
+
+// << -------- MainList -------- >>
+
+.MainList-list {
+    padding-top: 80px;
+}
+
+.MainList-text {
+    font-weight: 700;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.MainList-item {
+    font-weight: 400;
+    color: black;
+    line-height: 1.7;
+}
+
+// << -------- MainList -------- >>
+
+// << -------- MainButton -------- >>
+
+.MainButton {
+    padding-top: 80px;
+}
+
+.btn-order {
+    width: 183px;
+    appearance: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #3E9CDC;
+    color: #fff;
+    padding: 15px 10px 15px 10px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn-order:hover { 
+    background: white;
+    color: black;
+    border: 1px solid #6F6D7B;
+}
+
+.btn-more {
+    width: 183px;
+    appearance: none;
+    border: 1px solid #6F6D7B;
+    border-radius: 5px;
+    background: white;
+    color:black;
+    padding: 15px 10px 15px 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-more:hover { 
+    background: #3E9CDC;;
+}
+
+
+
+// << -------- MainButton -------- >>

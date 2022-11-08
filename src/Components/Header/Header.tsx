@@ -8,13 +8,18 @@ export default function Header() {
     <div className="header">
       <nav className="headr-nav">
         <div className="header-nav-block-logo">
-          <h1 className="header-nav_logo"><Link to="/">LOREMIPSUN.NET</Link></h1>
+          <h1 className="header-nav_logo">
+            <Link to="/">
+              LOREMIPSUN.
+              <span>NET</span>
+            </Link>
+          </h1>
         </div>
         <ul className="header-nav-list">
-          <li className="header-nav-link"><Link to="/Business">Бизнес</Link></li>
-          <li className="header-nav-link"><Link to="/About">О нас</Link></li>
-          <li className="header-nav-link"><Link to="/Price">Цены</Link></li>
-          <li className="header-nav-link"><Link to="/Place-an-order">Оформить заказ</Link></li>
+          <li className="header-nav-link"><Link to="/Business">БИЗНЕС</Link></li>
+          <li className="header-nav-link"><Link to="/About">О НАС</Link></li>
+          <li className="header-nav-link"><Link to="/Price">ЦЕНЫ</Link></li>
+          <li className="header-nav-link"><Link to="/Place-an-order">ОФОРМИТЬ ЗАКАЗ</Link></li>
         </ul>
       </nav>
     </div>

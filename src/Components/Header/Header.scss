@@ -2,17 +2,30 @@
 .headr-nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 33px 31px;
     background: rgba(16, 16, 29, 0.9);
 }
 
-// .header-nav-block-logo {
-// }
+.header-nav_logo {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.header-nav_logo span {
+    color: #42A9ED;
+}
 
 .header-nav-list {
     display: flex;
 }
 
 .header-nav-link {
-    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 60px;
+}
+
+.header-nav-link:hover {
+    color: #42A9ED;
 }

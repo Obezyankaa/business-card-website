@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Main from '../Main/Main';

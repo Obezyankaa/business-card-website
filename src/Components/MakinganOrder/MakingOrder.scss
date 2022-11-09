@@ -1,3 +1,73 @@
-.test {
-    height: 800px;
+// .test {
+//     height: 800px;
+// }
+
+.MakingOrder-block {
+    width: 1280px;
+    padding: 0px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 200px;
 }
+
+// <<< ----------- MakingHeading ----------- >>>
+
+.makingHeading-block {
+    padding-top: 100px;
+}
+.makingHeading-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.makingHeading-title span {
+    color: #3E9CDC;
+}
+
+.makingHeading-text {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 30px;
+    color:  #BBBBBB;;
+}
+
+// <<< ----------- MakingHeading ----------- >>>
+
+
+// <<< ----------- makingContent ----------- >>>
+
+.makingContent-block-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.makingContent-block-content-one {
+    width: 90px;
+}
+
+.makingContent-block-content-text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    white-space: nowrap;
+}
+
+.block-icon {
+    margin: 0px 20px;
+}
+
+.block-icon-img:not(:last-child) {
+    margin-right: 15px;    
+}
+
+.makingContent-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 60px;
+}
+
+
+// <<< ----------- makingContent ----------- >>>

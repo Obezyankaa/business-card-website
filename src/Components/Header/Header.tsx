@@ -7,7 +7,7 @@ import './Header.scss';
 export default function Header() {
   return (
     <div className="header">
-      <div className="test">
+      <div className="header-block">
         <Menu />
       </div>
       <nav className="headr-nav">

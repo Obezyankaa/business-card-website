@@ -27,12 +27,12 @@ img {
     max-width: 100%;
   }
 
-  .test {
+  .header-block {
     display: none;
   }
 
   @media screen and (max-width: 413px) {
-    .test {
+    .header-block {
       display: block;
     }
     .headr-nav {

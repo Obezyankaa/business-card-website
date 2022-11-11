@@ -1,4 +1,8 @@
 .header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
     padding: 30px 30px;
     background: rgba(16, 16, 29, 0.9);
 }

@@ -1,11 +1,15 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from '../burger/Menu/Menu';
 import './Header.scss';
 
 export default function Header() {
   return (
     <div className="header">
+      <div className="test">
+        <Menu />
+      </div>
       <nav className="headr-nav">
         <div className="header-container">
           <div className="header-nav-block-logo">

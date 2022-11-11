@@ -10,7 +10,7 @@
 }
 
 .headr-nav {
-    width: 1280px;
+    width: 1024px;
     padding: 0px 10px;
     margin-right: auto;
     margin-left: auto;
@@ -37,4 +37,14 @@
 
 .header-nav-link:hover {
     color: #42A9ED;
+}
+
+@media screen and (max-width: 321px) { 
+    .MainHeading-heading {
+        text-align: center;
+    }
+    .MainList {
+        text-align: center;
+    }
+
 }

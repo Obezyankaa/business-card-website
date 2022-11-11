@@ -26,3 +26,16 @@ ul {
 img {
     max-width: 100%;
   }
+
+  .test {
+    display: none;
+  }
+
+  @media screen and (max-width: 321px) {
+    .test {
+      display: block;
+    }
+    .headr-nav {
+      display: none;
+    }
+  }

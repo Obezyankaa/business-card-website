@@ -42,8 +42,8 @@
     background-size: contain;
 }
 
-
-@media screen and (max-width: 321px) { 
+@media screen and (max-width: 500px)
+{ 
     .footer-separator {
         display: none;
     }
@@ -54,6 +54,9 @@
     }
     .footer-container div {
         margin-bottom: 20px;
+    }
+    .header {
+        display: none;
     }
 
 

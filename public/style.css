@@ -31,7 +31,7 @@ img {
     display: none;
   }
 
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 413px) {
     .test {
       display: block;
     }

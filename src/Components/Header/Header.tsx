@@ -6,11 +6,11 @@ import './Header.scss';
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header banner-outer">
       <div className="header-block">
         <Menu />
       </div>
-      <nav className="headr-nav">
+      <nav className="headr-nav banner-inner">
         <div className="header-container">
           <div className="header-nav-block-logo">
             <h1 className="header-nav_logo">

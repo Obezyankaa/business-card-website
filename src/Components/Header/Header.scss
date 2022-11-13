@@ -1,9 +1,70 @@
+
+body {
+	font-family: "DM Sans", sans-serif;
+	background-color: #f2f5f7;
+	line-height: 1.5;
+	min-height: 300vh;
+	position: relative;
+}
+
+
+a {
+	color: inherit;
+}
+
+:root {
+	/* Banner */
+	--banner-outer-height: 90px;
+	--banner-inner-height: 50px;
+	--banner-height-difference: calc(
+		var(--banner-outer-height) - var(--banner-inner-height)
+	);
+	
+	/* Header */
+	--header-outer-height: 110px;
+	--header-inner-height: 70px;
+	--header-bg: #FFF;
+}
+
+.responsive-wrapper {
+	width: 90%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Sticky banner */
+.banner-outer {
+	/* Make it stick */
+	height: var(--banner-outer-height);
+	position: sticky;
+	top: calc(var(--banner-height-difference) * -1); /* Multiply by -1 to get a negative value */
+	display: flex;
+	align-items: center;
+	
+	/* Other */ 
+	z-index: 1;
+}
+
+.banner-inner {
+	/* Make it stick */
+	height: var(--banner-inner-height);
+	position: sticky;
+	top: 0;
+	
+	/* Other */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
 .header {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    padding: 30px 30px;
+    // position: fixed;
+    // top: 0;
+    // z-index: 100;
+    // width: 100%;
+    // padding: 30px 30px;
     background: rgba(16, 16, 29, 0.9);
 }
 
